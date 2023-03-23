@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+html{
+        font-size: 62.5%;
+
+}
+h1{
+    color: #000;
+    font-size: 32px;
+    font-family: arial;
+
+}
+.txt-azul{
+
+    color: blue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.box{
+    width: 400px;
+    height: 300px;
+    display: table;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #ff9966;
+    border-radius: 8px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.15);
+
+}
