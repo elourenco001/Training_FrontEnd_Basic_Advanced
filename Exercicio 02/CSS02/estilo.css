@@ -10,9 +10,14 @@ main{
     margin: 100px auto 0 auto;
 
 }
+/*Cards*/
+
 .card-container{
-    width: 400px;
+    width: 270px;
     display: table;
+    float: left;
+    margin: 60px 60px 0 0;
+
 
 }
 .card{
@@ -47,4 +52,45 @@ margin-top: 13px;
     color: #9013fe;
     margin: 0;
     
+} 
+.car .card-body p{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px ;
+    line-height: 14px;
+    color: #4a4a4a;
+    font-weight: 800;
+    margin: 15px 0 10px 0;
+
+}
+
+.card .card-footer{
+width: 100%;
+display: table;
+margin-top: 13px;
+
+}
+.card .card-footer .btn{
+    width: 100%;
+
+}
+
+/*Botões*/
+.btn{
+    width: auto;
+    height: 40px;
+    display: inline-block;
+    background-color: #39e493;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    margin-top: 12px;
+    padding: 0 30px;
+    border-radius: 4px;
+    box-sizing: border-box;
+
 }
