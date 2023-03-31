@@ -38,6 +38,11 @@ main{
     display: block;
     
 }
+.card .card-image-top{
+    margin-top: -55px;
+
+
+}
 .card .card-body{
 width: 100%;
 display: table;

@@ -1,0 +1,51 @@
+body{
+    color: #f2f4f5;
+    margin: 0;
+}
+
+@media only screen and (min-width:300px){
+    .my-box{
+        width: 90%;
+        height: 400px;
+        background-color: yellowgreen;
+        display: block;
+        margin: 60px auto;
+        text-align: center;
+        padding: 30px;
+        box-sizing: border-box;
+
+    }
+    .my-box h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+
+    }
+}
+
+
+@media only screen and (min-width:540px){
+    .my-box{
+        width: 50%;
+        background-color: purple;
+        
+    }
+    .my-box h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+
+    }
+}
+
+@media only screen and (min-width:1040px){
+    .my-box{
+        width: 50%;
+        background-color: red;
+        
+    }
+    .my-box h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: yellow;
+        font-size: 70px;
+
+    }
+}
