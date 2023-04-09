@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(320deg,#eb92be,#ffef78,#63c9b4);
+    
+}
+
+.my-container{
+    display: flex;
+    width: 80%;
+    height: 600px;
+    margin: 60px auto;
+    background-color: #8a00cf;
+    border-radius: 8px;
+    /*flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;*/
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.my-item{
+    height: 150px;
+    background-color: #21f8bb;
+    border-radius: 8px;
+    padding: 30px;
+    border: solid #FFF;
+    flex-basis: 10%;
+}
